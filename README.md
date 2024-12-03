@@ -1,6 +1,6 @@
 
 # Aplicativo de Fitness Personalizado
-
+[![Static Badge](https://img.shields.io/badge/-Escopo%20do%20projeto-lightgrey)](https://github.com/projetoIntegrador-aplicacaoFitness/backend/blob/main/Escopo%20do%20Projeto.pdf)
 
 Projeto desenvolvido com Spring Boot, com CRUD completo que permite aos usuários verificar e gerenciar seus treinos diários, além de manter
 um cadastro com seus dados pessoais.
@@ -28,3 +28,4 @@ um cadastro com seus dados pessoais.
 ● Spring Boot DevTools
 ● Validation
 
+<img src="https://brazil.generation.org/wp-content/uploads/2024/10/Generation_BRAZIL_logo_NEW-BLUE.png" alt="Logo" width="200">
