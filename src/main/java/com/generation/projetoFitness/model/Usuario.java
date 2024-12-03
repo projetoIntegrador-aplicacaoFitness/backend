@@ -1,6 +1,8 @@
 package com.generation.projetoFitness.model;
 
-import java.sql.Date;
+import java.time.LocalDate;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,6 +11,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
 
@@ -24,18 +27,19 @@ public class Usuario {
 	@Size(min=2, max=255, message = "O atributo 'nome' deve conter no minimo 2 e no maximo 255 caracteres")
 	private String nome;
 	
-	@NotBlank
-	private Date dataDeNascimento;
+	@NotNull(message = "O atributo 'dataDeNascimento' não pode ser nulo")
+	//@JsonFormat(pattern = "yyyy-MM-dd")
+	private LocalDate dataDeNascimento;
 	
 	private String genero;
 	
-	@NotBlank
+	@NotNull(message = "O atributo 'peso' não pode ser nulo")
 	private Float peso;
 	
-	@NotBlank
+	@NotNull(message = "O atributo 'altura' não pode ser nulo")
 	private Float altura;
 	
-	@NotBlank
+	@NotBlank(message = "O atributo 'email' não pode ser nulo")
 	@Email
 	private String email;
 
@@ -55,11 +59,11 @@ public class Usuario {
 		this.nome = nome;
 	}
 
-	public Date getDataDeNascimento() {
+	public LocalDate getDataDeNascimento() {
 		return dataDeNascimento;
 	}
 
-	public void setDataDeNascimento(Date dataDeNascimento) {
+	public void setDataDeNascimento(LocalDate dataDeNascimento) {
 		this.dataDeNascimento = dataDeNascimento;
 	}
 
