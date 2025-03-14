@@ -41,7 +41,6 @@ um cadastro com seus dados pessoais.
 
 2. Instale as dependências:
    ```npm install
-    # ou
   yarn install```
 
 Claro! Aqui está um modelo de README com as instruções para rodar seu projeto React, incluindo os comandos para instalar as dependências e iniciar o servidor de desenvolvimento:
