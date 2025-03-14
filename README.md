@@ -45,6 +45,7 @@ um cadastro com seus dados pessoais.
 
 ## Configuração
 1. Tailwind CSS:
+   
 ```npm install tailwindcss @tailwindcss/vite```
 
 2. Ícones:
