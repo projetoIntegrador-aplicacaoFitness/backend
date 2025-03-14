@@ -40,8 +40,8 @@ um cadastro com seus dados pessoais.
    git clone https://github.com/projetoIntegrador-aplicacaoFitness/frontend.git```
 
 2. Instale as dependências:
-   ```npm install
-  yarn install```
+   ```npm install```
+  ```yarn install```
 
 Claro! Aqui está um modelo de README com as instruções para rodar seu projeto React, incluindo os comandos para instalar as dependências e iniciar o servidor de desenvolvimento:
 
