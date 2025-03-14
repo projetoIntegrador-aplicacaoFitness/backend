@@ -43,35 +43,7 @@ um cadastro com seus dados pessoais.
    ```npm install```
   ```yarn install```
 
-Claro! Aqui está um modelo de README com as instruções para rodar seu projeto React, incluindo os comandos para instalar as dependências e iniciar o servidor de desenvolvimento:
-
-Markdown
-
-# Nome do Projeto
-
-Descrição breve do seu projeto.
-
-## Pré-requisitos
-
-* Node.js (versão >= 14)
-* npm (versão >= 6) ou yarn (versão >= 1)
-
-## Instalação
-
-1. Clone o repositório:
-
-   ```bash
-   git clone <URL_DO_SEU_REPOSITÓRIO>
-   cd <NOME_DO_SEU_PROJETO>
-Instale as dependências:
-
-Bash
-
-npm install
-# ou
-yarn install
-
-##Configuração
+## Configuração
 Tailwind CSS:
 ```npm install tailwindcss @tailwindcss/vite```
 
