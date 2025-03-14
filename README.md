@@ -28,4 +28,60 @@ um cadastro com seus dados pessoais.
 ● Spring Boot DevTools
 ● Validation
 
+## Ferramenta de Gestão de Projetos
+
+● Trello
+
+## Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/projetoIntegrador-aplicacaoFitness/frontend.git```
+
+2. Instale as dependências:
+   ```npm install
+    # ou
+  yarn install```
+
+Claro! Aqui está um modelo de README com as instruções para rodar seu projeto React, incluindo os comandos para instalar as dependências e iniciar o servidor de desenvolvimento:
+
+Markdown
+
+# Nome do Projeto
+
+Descrição breve do seu projeto.
+
+## Pré-requisitos
+
+* Node.js (versão >= 14)
+* npm (versão >= 6) ou yarn (versão >= 1)
+
+## Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone <URL_DO_SEU_REPOSITÓRIO>
+   cd <NOME_DO_SEU_PROJETO>
+Instale as dependências:
+
+Bash
+
+npm install
+# ou
+yarn install
+
+##Configuração
+Tailwind CSS:
+```npm install tailwindcss @tailwindcss/vite```
+
+Ícones:
+```
+npm i @phosphor-icons/react
+```
+Toast Alert:
+```yarn add react-toastify```
+
+
 <img src="https://brazil.generation.org/wp-content/uploads/2024/10/Generation_BRAZIL_logo_NEW-BLUE.png" alt="Logo" width="200">
