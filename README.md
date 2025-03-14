@@ -44,14 +44,14 @@ um cadastro com seus dados pessoais.
   ```yarn install```
 
 ## Configuração
-Tailwind CSS:
+1. Tailwind CSS:
 ```npm install tailwindcss @tailwindcss/vite```
 
-Ícones:
+2. Ícones:
 ```
 npm i @phosphor-icons/react
 ```
-Toast Alert:
+3. Toast Alert:
 ```yarn add react-toastify```
 
 
